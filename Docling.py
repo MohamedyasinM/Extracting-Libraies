@@ -7,6 +7,7 @@ from docling.datamodel.base_models import InputFormat
 
 pipeline_options = PdfPipelineOptions()
 pipeline_options.generate_picture_images = True
+pipeline_options.generate_page_images = True
 pipeline_options.images_scale = 2
 pipeline_options.do_picture_classification = True
 
